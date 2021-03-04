@@ -1,0 +1,21 @@
+{
+  "name": "9-cors-anywhere",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node server.js",
+    "heroku-postbuild": "tsc"
+  },
+  "dependencies": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node server.js",
+    "heroku-postbuild": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
